@@ -13,7 +13,7 @@ public class Connect {
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:C:/sqlite/db/SAMEEKSHA.db";
+            String url = "jdbc:sqlite:C:/sqlite/db/ANANY.db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
             
