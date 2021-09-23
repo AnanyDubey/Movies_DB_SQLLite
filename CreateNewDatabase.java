@@ -26,6 +26,6 @@ public class CreateNewDatabase {
     }
 	 
     public static void main(String[] args) {
-        NewDatabase("SAMEEKSHA.db");
+        NewDatabase("ANANY.db");
     }
 }
