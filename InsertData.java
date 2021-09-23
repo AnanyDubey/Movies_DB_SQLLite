@@ -42,16 +42,16 @@ public class InsertData {
 
         InsertData data = new InsertData();
         // insert three new rows
+	data.insert("Hera Pheri","Akshay Kumar,Sunil Shetty,Paresh Rawal","Tabu","Priyadarshan Soman", 2000);
+	data.insert("Phir Hera Pheri","Akshay Kumar, Sunil Shetty ,Paresh Rawal","Bipasha Basu, Rimi","Neeraj Vora", 2006);
         data.insert("3Idiots","Amir Khan,R.Madhavan,Sharman Joshi","Kareena Kapoor","Rajkumar Hirani", 2009);
-        data.insert("Chhichhore","Sushant Singh Rajput","Shraddha Kapoor","Nitesh Tiwari", 2019);
-        data.insert("Zindagi Na Milegi Dobara","Hrithik Roshan,Abhay Deol,Farhan Akhtar","Katrina Kaif,Kalki Koechlin","Zoya Akhtar", 2011);
-        data.insert("Super30","Hrithik Roshan","Mrunal Thakur","Vikas Bahl", 2019);
+	data.insert("Zindagi Na Milegi Dobara","Hrithik Roshan,Abhay Deol,Farhan Akhtar","Katrina Kaif,Kalki Koechlin","Zoya Akhtar", 2011);
 	data.insert("Jhon Wick[Chapter 1]","Keanu Reeves","NA","Chad Stahelski", 2014);
 	data.insert("Jhon Wick[Chapter 2]","Keanu Reeves","NA","Chad Stahelski", 2017);
-	data.insert("Jhon Wick[Chapter 3]","Keanu Reeves","NA","Chad Stahelski", 2019);
-	data.insert("Madmax","Tom Hardy","Charlize Theron","George Miller", 2015);
-	data.insert("Kabir Singh","Shahid Kapoor","Kiara Advani","Sandeep Reddy Vanga", 2019);
+        data.insert("Chhichhore","Sushant Singh Rajput","Shraddha Kapoor","Nitesh Tiwari", 2019);
 	data.insert("Kesari","Akshay Kumar","Parineeti Chopra","Anurag Singh", 2019);
+	data.insert("Shershaah","Sidharth Malhotra","Kiara Advani","Vishnuvardhan", 2021);
+	
     }
 
 }
