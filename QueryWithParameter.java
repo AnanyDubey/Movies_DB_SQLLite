@@ -23,7 +23,7 @@ import java.sql.Statement;
     }
 	
 	public void Parameter(){
-               String sql = "SELECT * from Movies where Lead_Actor like '%Hrithik Roshan%';";
+               String sql = "SELECT * from Movies where Lead_Actor like '%Akshay Kumar%';";
         
         try (Connection conn = this.connect();
               PreparedStatement pstmt  = conn.prepareStatement(sql)){
